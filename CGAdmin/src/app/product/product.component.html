@@ -1,3 +1,14 @@
 <p>
   product works!
 </p>
+
+<p *ngIf="defaultValues">
+  {{defaultValues[0]}}
+</p>
+
+<ul>
+  <li *ngFor="let value of defaultValues">
+    {{value}}
+  </li>
+</ul>
+
